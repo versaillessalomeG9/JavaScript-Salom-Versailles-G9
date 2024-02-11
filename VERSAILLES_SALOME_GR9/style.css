@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Ricardpolice';
+    src: url("fonts/Ricardpolice.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Ricardpolice",sans-serif;
+    color: #003b79;
+    height: 100vh;
+}
+
+nav{
+    width: 100%;
+    margin: 0px auto 40px auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+    width: 25%;
+    font-size: large;
+    font-weight: 500;
+
+}
+
+nav ul ::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav {
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #003b79;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+nav a:hover{
+    color: #ffd300;
+    border-bottom: 2px solid #003b79;
+}
+
+.conteneur{
+    margin: 0px 60px;
+    height: 1500px;
+    margin-top: 40px;
+    color: #003b79;
+    display: flex;
+    justify-content: center;
+}
+
+.preview {
+    width: 100%;
+    background:#ffd300;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.preview h6 {
+    color: #003b79;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.preview p {
+    color: #003b79;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.preview button {
+    background-color: #ffffff;
+    color: #003b79;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+a href {
+    font-size: large;
+}
+
+.swiper-slide {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 18px;
+    padding-left: 100px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 72px;
+    color: #003b79;
+}
+
+.subtitle {
+    letter-spacing: 3px;
+    font-size: 24px;
+    color: #003b79;
+}
+
+.slide-ri {
+    background-image: url(./evetricard.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide-ca {
+    background-image: url(./bouteille\ de\ ricard.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide-rd {
+    background-image: url(./bleublancrouge.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

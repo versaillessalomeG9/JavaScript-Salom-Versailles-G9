@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Ricardpolice';
+    src: url("fonts/Ricardpolice.ttf");
+}
+
+* {
+  margin: 0;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+body {
+    background-color: #ffd300 ;
+    font-family: "Ricardpolice",sans-serif;
+    height: 100vh;
+    color: #003b79;
+}
+
+  fieldset {
+    background-color: RGBa(240, 160, 0, 0.2);
+  }
+
+  .champ {
+    margin-bottom: 10px;
+  }
+
+  textarea {
+    width: 80%;
+    height: 100px;
+    color: #003b79;
+  }
+
+  input[type="radio"], input[type="checkbox"]{
+    width: auto;
+  }
+
+  input[type="submit"]{
+    width: 100px;
+  }
+
+  form > div {
+    margin: 30px 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+   
+input {
+  height: 20px;
+  width: 40%;
+
+}
+button {
+  margin-left: 20px;
+  margin-bottom: 30px;
+  padding: 10px 32px;
+  cursor: pointer;
+}
+
+
+.message-error {
+  border: 1px solid rgb(212, 42, 0);
+  color: rgb(212, 42, 0);
+  background-color: rgba(212, 42, 0, 0.4);
+  padding: 16px 32px;
+  margin-bottom: 20px;
+  display: none;
+}
+
+.message-error.visible {
+  display: block;
+}
+
+
+.message-success {
+border: 1px rgb(81, 150, 2);
+color: 1px rgb(81, 150, 2);
+background-color: rgba(113,212,0,0.4);
+padding: 16px 32px;
+margin-bottom: 20px;
+display: none;
+}
+
+.message-success.visible {
+  display: block;
+}
+
+.success {
+  border: 1px rgb(81, 150, 2);
+  background-color: rgba(113,212,0,0.4);
+}

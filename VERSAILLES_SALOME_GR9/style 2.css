@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Ricardpolice';
+    src: url("fonts/Ricardpolice.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Ricardpolice",sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #ffd300;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #003b79;
+}
+
+.about, .products, .contact {
+    margin-top: 30px;
+}
+
+h2 {
+    color: #003b79;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #003b79;
+    background-color: #ffd300;
+  }
+
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+
+  .tab button:hover {
+    background-color: #003b79;
+  }
+  .tab button.active {
+    background-color: green;
+  }
+
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #003b79;
+    border-top: none;
+  }

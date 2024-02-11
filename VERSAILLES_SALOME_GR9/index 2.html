@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style 2.css">
+    <title> Chez Pernod Ricard</title>
+</head>
+<body>
+    <div class="presentation-contenu"></div>
+    <img src ="logo ricard.jpg"width =180px >
+    <div class="wrapper">
+        <head>
+            <h1>Ricard</h1>
+            <p>La marque de pastis préférée des Français</p>
+        </head>
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'pastis')">Pastis 51</button>
+            <button class="tablinks" onclick="openCity(event, 'mauresque')">Mauresque</button>
+            <button class="tablinks" onclick="openCity(event, 'original')">L'original</button>
+          </div>
+          
+          <!-- Tab content -->
+          <div id="pastis" class="tabcontent">
+            <h3>London</h3>
+            <p>London is the capital city of England.</p>
+          </div>
+          
+          <div id="mauresque" class="tabcontent">
+            <h3>Paris</h3>
+            <p>Paris is the capital of France.</p>
+          </div>
+          
+          <div id="original" class="tabcontent">
+            <h3>Tokyo</h3>
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
+          
+        <div class="about">
+            <h2>À propos de Ricard</h2>
+            <p>Ricard est une marque de pastis française créée par Paul Ricard en 1932. Depuis lors, elle est devenue l'une des marques les plus emblématiques de spiritueux en France.</p>
+        </div>
+
+        <div class="products">
+            <h2>Nos produits</h2>
+            <ul>
+                <li>Ricard Original</li>
+                <li>Ricard Mauresque</li>
+                <li>Ricard Pastis 51</li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <h2>Contactez-nous</h2>
+            <p>Adresse : 123 Rue de la Marque, 75001 Paris, France</p>
+            <p>Email : info@ricard.com</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+      function addDarkmodeWidget() {
+        new Darkmode().showWidget();
+      }
+      window.addEventListener('load', addDarkmodeWidget);
+    </script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> S'inscrire </title>
+        <meta charset= "utf-8">
+        <link rel="stylesheet" href="style 3.css">
+    </head>
+    
+    <body>
+        <div class="message-error">
+            <ul></ul>
+        </div>
+        <div class="message-success">
+        
+            Formulaire envoyé avec succès !
+        </div>
+        <div class="presentation-contenu"></div>
+        <form action="" method="post" enctype="multipart/form-data">
+            <fieldset>
+            <legend>Informations personnelles :</legend>
+            <div class="champ">
+                <label for="nom">Nom de famille :</label>
+                <input type="text" id="nom" name="nom">
+            </div>
+            <div class="champ">
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom">
+            </div>
+            <div class="champ">
+                <label for="mail">Adresse mail :</label>
+                <input type="email" id="mail" name="mail">
+            </div>
+            <div class="champ">
+                <label for="age">Age :</label>
+                <input type="number" id="age" name="age">
+            </div>
+            <div class="champ">
+                <input type="radio" id="h" name="sexe" value="homme">
+                <label for="h">Homme</label>
+                <input type="radio" id="f" name="sexe" value="femme">
+                <label for="f">Femme</label>
+            </div>
+            <div class="champ">
+                <label for="pays">Pays de résidence :</label>
+                <select id="pays" name="pays">
+                    <option value="france">France</option>
+                    <option value="belgique">Belgique</option>
+                    <option value="Allemagne">Suisse</option>
+                    <option value="Canada">Algérie</option>
+                    <option value="Thaïlande">Tunisie</option>
+                    <option value="Espagne">Maroc</option>
+                    <option value="Finlande">Madagascar</option>
+                </select>
+            </div>
+            </fieldset>
+            <fieldset>
+            <div class="champ">
+                <textarea name="préférences" placeholder="Décrivez l'occasion parfaite pour boire du ricard !"></textarea>
+            </div>
+            </fieldset>
+            <fieldset>
+            <legend>Validation :</legend>
+            <div class="champ">
+                <label for="pass">Choisissez un mot de passe :</label>
+                <input type="password">
+            </div>
+            <div>
+                <label for="password2">Confirmer votre mot de passe</label>
+                <input type="password" name="password2" id="password2">
+            </div>
+            <input type="submit" value="Envoyer">
+            </fieldset>
+        </form>
+        <script src="./main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+  }
+  window.addEventListener('load', addDarkmodeWidget);
+</script>
+    </body>
+</html>
